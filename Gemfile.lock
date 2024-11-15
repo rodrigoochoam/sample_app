@@ -410,7 +410,6 @@ DEPENDENCIES
   solid_cable
   solid_cache
   solid_queue
-  sprockets-rails
   sqlite3 (>= 2.1)
   stimulus-rails
   thruster
