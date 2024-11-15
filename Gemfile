@@ -5,9 +5,6 @@ ruby ">=3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.0"
 gem "sassc-rails"
-=begin 
-gem "sprockets-rails" 
-=end
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use the Puma web server [https://github.com/puma/puma]
