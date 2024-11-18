@@ -11,6 +11,9 @@ module SampleApp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
     config.assets.paths << Rails.root.join("app", "assets", "images")
+    config.assets.configure do |env|
+      env.cache = ActiveSupport::Cache.lookup_store(:null_store)
+    end
 
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
