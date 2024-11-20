@@ -38,4 +38,5 @@ Rails.application.configure do
 
   # Reduce logging
   config.log_level = :info
+
 end
