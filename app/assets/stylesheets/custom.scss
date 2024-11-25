@@ -8,6 +8,7 @@
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
+$gray-lighter: #e8e8e8;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -280,4 +281,16 @@ input {
 
 main {
   margin-top: 2rem;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
