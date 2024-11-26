@@ -9,7 +9,7 @@ gem "bcrypt"
 
 gem "faker"
 
-gem "will_paginate", "~> 3.3"
+gem "will_paginate", "~> 4.0"
 
 gem "bootstrap-will_paginate", "~> 1.0"
 
